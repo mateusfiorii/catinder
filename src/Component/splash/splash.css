@@ -1,0 +1,13 @@
+.container_splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #E5E5E5;
+    width: 100%;
+    height: 100vh;
+}
+
+.container_splash h1 {
+    color: #0984E3;
+}

@@ -1,8 +1,8 @@
 .container_dashboard {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     height: 100vh;
+    align-items: center;
 }
 
 .header {
@@ -24,9 +24,98 @@
     height: 100%;
     background: #74B9FF;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    /* Retirar quando colocar os outros itens */
+}
+
+.painel_imagem {
+    margin-top: 20px;
+    background: #0984E3;
+    width: 90%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.painel_imagem img {
+    width: 100%;
+    height: 80%;
+}
+
+.descricao {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    background: white;
+}
+
+.descricao button {
+    width: 40px;
+    height: 40px;
+    background: #6C5CE7;
+}
+
+.itensDescricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.itensDescricao h2 {
+    color: #6C5CE7;
+}
+
+.itensDescricao span {
+    color: #636E72;
+}
+
+.dashboard_footer {
+    background: #0984E3;
+    width: 100%;
+    height: 70px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashboard_footer .divButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+.divButton span {
+    font-size: 12px;
+    font-weight: bold;
     color: white;
+    margin-bottom: 10px;
+}
+
+.dashboard_footer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 120px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    border: 5px solid #74B9FF;
+    padding: 15px;
+    background: white;
+    overflow: hidden;
+}
+
+.dashboard_footer img {
+    width: 100%;
+}
+
+.float {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
